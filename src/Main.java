@@ -24,14 +24,11 @@ public class Main {
         byte currentAge = 25;
         if (currentAge >= 2 && currentAge <= 6) {
             System.out.println("Если возраст человека равен " + currentAge + ", то ему нужно ходить в детский сад.");
-        }
-        if (currentAge >= 7 && currentAge <= 17) {
+        } else if (currentAge >= 7 && currentAge <= 17) {
             System.out.println("Если возраст человека равен " + currentAge + ", то ему нужно ходить в школу.");
-        }
-        if (currentAge >= 18 && currentAge <= 24) {
+        } else if (currentAge >= 18 && currentAge <= 24) {
             System.out.println("Если возраст человека равен " + currentAge + ", то ему нужно ходить в университет.");
-        }
-        if (currentAge > 24) {
+        } else if (currentAge >= 25) {
             System.out.println("Если возраст человека равен " + currentAge + ", то ему нужно ходить на работу.");
         }
 
