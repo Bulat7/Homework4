@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        byte age = 19;
+        byte age = 3;
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + ", он совершеннолетний.");
         } else {
@@ -21,18 +21,18 @@ public class Main {
             System.out.println("Если скорость " + speed + ", то можно ездить спокойно.");
         }
 
-        byte currentAge = 21;
-        if (currentAge >= 2 && currentAge < 6) {
-            System.out.println("Если возраст человека равен " + currentAge + " , то ему нужно ходить в детский сад.");
+        byte currentAge = 25;
+        if (currentAge >= 2 && currentAge <= 6) {
+            System.out.println("Если возраст человека равен " + currentAge + ", то ему нужно ходить в детский сад.");
         }
-        if (currentAge >= 7 && currentAge < 17) {
-            System.out.println("Если возраст человека равен " + currentAge + " , то ему нужно ходить в школу.");
+        if (currentAge >= 7 && currentAge <= 17) {
+            System.out.println("Если возраст человека равен " + currentAge + ", то ему нужно ходить в школу.");
         }
-        if (currentAge >= 18 && currentAge < 24) {
-            System.out.println("Если возраст человека равен " + currentAge + " , то ему нужно ходить в университет.");
+        if (currentAge >= 18 && currentAge <= 24) {
+            System.out.println("Если возраст человека равен " + currentAge + ", то ему нужно ходить в университет.");
         }
-        if (currentAge >= 24) {
-            System.out.println("Если возраст человека равен " + currentAge + " , то ему нужно ходить на работу.");
+        if (currentAge > 24) {
+            System.out.println("Если возраст человека равен " + currentAge + ", то ему нужно ходить на работу.");
         }
 
         byte childAge = 15;
